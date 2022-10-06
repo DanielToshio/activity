@@ -28,10 +28,10 @@ public class SegundaActivity extends AppCompatActivity {
     }
 
     public void segundaTela(View view){
-        getSupportFragmentManager().beginTransaction().add(R.id.idframe, new SegundoFragmento()).commit();
+        getSupportFragmentManager().beginTransaction().replace(R.id.idframe, new SegundoFragmento()).commit();
     }
 
     public void primeiraTela(View view){
-        getSupportFragmentManager().beginTransaction().add(R.id.idframe, new Primeiro()).commit();
+        getSupportFragmentManager().beginTransaction().replace(R.id.idframe, new Primeiro()).commit();
     }
 }
