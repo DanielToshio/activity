@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">Hello</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="ol_sou_a_segunda_tela">Olá, sou a segunda tela!</string>
 </resources>
